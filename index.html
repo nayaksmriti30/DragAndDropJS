@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Drag And Drop</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+        <div class="outer" id="container1">
+          <h2 class="mt-0">Drag Your Item from here</h2>
+          <div class="fill" >
+          <div class=" shadow rounded">
+            
+            <div class="row">
+              <div draggable="true" class=" position-relative col-6" id="item1">
+                <div class="card">
+                  <div class="card_img">
+                    <img
+                      src="images/card1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-text d-flex align-items-center my-0">
+                      <img
+                        src="images/fast-food-icon.png"
+                        alt=""
+                        class="me-2"
+                      />
+                      Fast Food
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div draggable="true" class="fill position-relative col-6" id="item2">
+                <div class="card">
+                  <div class="card_img">
+                    <img
+                      src="images/card2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-text d-flex align-items-center my-0">
+                      <img
+                        src="images/fast-food-icon.png"
+                        alt=""
+                        class="me-2"
+                      />
+                      Fast Food
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- <div draggable="true" class="fill position-relative col-6">
+                <div class="card">
+                  <div class="card_img">
+                    <img
+                      src="images/card3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-text d-flex align-items-center my-0">
+                      <img
+                        src="images/fast-food-icon.png"
+                        alt=""
+                        class="me-2"
+                      />
+                      Fast Food
+                    </h3>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div draggable="true" class="fill position-relative col-6">
+                <div class="card">
+                  <div class="card_img">
+                    <img
+                      src="images/card4.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-text d-flex align-items-center my-0">
+                      <img
+                        src="images/fast-food-icon.png"
+                        alt=""
+                        class="me-2"
+                      />
+                      Fast Food
+                    </h3>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="container2">
+          <div  class="outer">
+            <div class="whiteBox rounded" >
+              <h2 class="mt-0">Drop Your Item here</h2>
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn reset mt-5" onclick="alter()">Reset</button>
+      </div>
+    </div>
+    <script async src="js/script.js"></script>
+  </body>
+</html>
